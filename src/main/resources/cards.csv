@@ -1,0 +1,164 @@
+﻿Intro;What HCI is about;-
+Intro;What concerns HCI originally did have and how have they evolved;-
+Intro;Why HCI matters?;-
+Intro;What makes HCI increasingly important?;-
+Intro;What is HCI concerned about?;-
+Intro;What are the essential activities of HCI?;-
+Intro;How is HCI applied in practice?;-
+HTML & CSS;Why the Web is a powerful platform for developing user interfaces;-
+HTML & CSS;What developing UIs is about and how it is different from traditional algorithmic programming;-
+HTML & CSS;What HTML is;-
+HTML & CSS;How a tag is written including attributes;-
+HTML & CSS;The difference between an inline and block tag;-
+HTML & CSS;What CSS is;-
+HTML & CSS;That a CSS rule consist of a selector and one or more declarations;-
+HTML & CSS;That there are different types of selectors (type, class, id, child, ancestor) and what they do;-
+HTML & CSS;How to express colors in CSS;-
+HTML & CSS;Understand the box model of CSS and how to define margin, padding, and border on elements;-
+HTML & CSS;How rules in CSS cascade;-
+HTML & CSS;How CSS is integrated with HTML;-
+User Interfaces: Devices;Difference between input devices (e.g., direct vs. indirect control);-
+User Interfaces: Devices;What degrees of freedom, controller resistance, and order of control means;-
+User Interfaces: Devices;How to compare input devices using the design space of input devices.;-
+User Interfaces: Devices;What control-display gain is.;-
+User Interfaces: Devices;What a transfer function is and how it is used.;-
+User Interfaces: Devices;Differences between display types;-
+JavaScript;How data is represented in JavaScript;-
+JavaScript;What the basic operators on numbers, strings, and booleans are;-
+JavaScript;How to define variables and constants;-
+JavaScript;What a statement vs. an expression is;-
+JavaScript;How to write conditional statements (ifs) in JavaScript;-
+JavaScript;How to write loops (while, for, and for of);-
+JavaScript;How to define arrays and their basic properties and methods;-
+JavaScript;How to iterate over arrays;-
+JavaScript;What a function is and different ways to define it;-
+JavaScript;How scoping works in JavaScript;-
+JavaScript;How to create and manipulate objects in JavaScript;-
+JavaScript;How to define objects with object literal notation vs. a constructor function;-
+JavaScript;How to use the class syntax;-
+User Interfaces: GUIs;What’s a command-line interface and its tradeoffs?;-
+User Interfaces: GUIs;What’s direct manipulation and its tradeoffs?;-
+User Interfaces: GUIs;What translational distance means;-
+User Interfaces: GUIs;The difference between interaction tasks and interaction techniques;-
+User Interfaces: GUIs;What basic interaction tasks are;-
+User Interfaces: GUIs;What’s the consideration when designing interaction techniques?;-
+User Interfaces: GUIs;What’s the considerations when evaluating interaction techniques?;-
+DOM & Events;What the DOM is;-
+DOM & Events;How the DOM is structured;-
+DOM & Events;The terminology of the DOM (types of nodes, their family relationships);-
+DOM & Events;How to work with the DOM from JavaScript;-
+DOM & Events;How to query nodes;-
+DOM & Events;How to traverse the DOM;-
+DOM & Events;How to insert, modify, and delete elements in the DOM;-
+DOM & Events;How to set attributes on elements including classes with classList and styles with style;-
+DOM & Events;What types of events you can react to in the browser;-
+DOM & Events;The three steps involved in handling an event;-
+DOM & Events;How the event flow in JS works and the difference between the capturing and bubbling phase;-
+DOM & Events;How to use event listeners;-
+DOM & Events;What the event object is an what it is used for;-
+DOM & Events;How to change the event flow (preventing default behaviour and stopping propagation);-
+DOM & Events;What event delegation is and how to implement it;-
+GUI Design Principles;What are guidelines and how can they help us design user interfaces?;-
+GUI Design Principles;Shneiderman’s three high-level design principles;-
+GUI Design Principles;The eight golden rules of interface design;-
+GUI Design Principles;What an error is, and what different types of errors there are;-
+GUI Design Principles;What Don Norman’s principles are;-
+GUI Design Principles;What’s the relationship between guidelines, principles, and theories in HCI?;-
+GUI Design Principles;What different types of theories are there?;-
+GUI Design Principles;The difference between micro- and macro-HCI theories;-
+GUI design in praxis;What mental models are and their role in UI design;-
+GUI design in praxis;How mental models are related to metaphors and conceptual blends;-
+GUI design in praxis;That the grid layout is the premier structuring mechanism for visual organisation;-
+GUI design in praxis;The five visual design principles (from NN/g);-
+GUI design in praxis;Familiarity with the tips and rules for visual design presented at the lecture;-
+Responsive Web;The challenges involved in adapting a user-interface to different types of devices with different display sizes and input modalities;-
+Responsive Web;What responsive web design is and the techniques that compromise it;-
+Responsive Web;How to do media queries;-
+Responsive Web;The different techniques available in CSS to do fluid grids;-
+Responsive Web;How to do fluid images;-
+Evaluating user interfaces 1: Analytical;Why evaluate user interfaces?;-
+Evaluating user interfaces 1: Analytical;What are the goals of evaluating a user interface?;-
+Evaluating user interfaces 1: Analytical;The difference between formative and summative evaluation.;-
+Evaluating user interfaces 1: Analytical;The difference between qualitative and quantitative methods for evaluation.;-
+Evaluating user interfaces 1: Analytical;The difference between analytical and empirical evaluation.;-
+Evaluating user interfaces 1: Analytical;What’s a heuristic evaluation and how to do it.;-
+Evaluating user interfaces 1: Analytical;What’s a cognitive walkthrough and how to do it.;-
+Evaluating user interfaces 1: Analytical;What’s key-stroke level analysis, and what can it be used for?;-
+Evaluating user interfaces 1: Analytical;What’s a think-aloud study, how is it done, and what can it be used for?;-
+CSS Frameworks;Be able to explain what a CSS framework is and what it is used for;-
+CSS Frameworks;Be able to argue for the pros and cons of using a CSS framework;-
+Evaluating User Interfaces 2: Empirical;What’s an experiment in HCI and when is it used?;-
+Evaluating User Interfaces 2: Empirical;Key concerns: validity and reliability. What are those and why those?;-
+Evaluating User Interfaces 2: Empirical;What are the constituents of an experiment;-
+Evaluating User Interfaces 2: Empirical;What’s the role of the hypothesis and how is it formulated?;-
+Evaluating User Interfaces 2: Empirical;What’s independent and dependent variables?;-
+Evaluating User Interfaces 2: Empirical;How are dependent variables selected?;-
+Evaluating User Interfaces 2: Empirical;How are participants chosen?;-
+Evaluating User Interfaces 2: Empirical;How are results from experiments analysed?;-
+Evaluating User Interfaces 2: Empirical;What is the difference between qualitative and quantitative data?;-
+Evaluating User Interfaces 2: Empirical;What is a field study and how is it different from an experiment?;-
+JavaScript for Desktop Apps;How JavaScript can be used to develop desktop applications.;-
+JavaScript for Desktop Apps;What the difference is between running JavaScript in the browser and with Electron;-
+JavaScript for Desktop Apps;How the interplay is between node.js and electron in the creation of desktop apps with JavaScript;-
+Understanding People 1: Perception, Cognition and Motor Skills;What does it mean to be human-centered?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What is perception and why is it relevant for HCI?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What the human sensor system consists of;-
+Understanding People 1: Perception, Cognition and Motor Skills;What are key perceptual tasks and their mechanisms?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What’s involved in visual perception?;-
+Understanding People 1: Perception, Cognition and Motor Skills;How does the basics of the eye work?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What gestalt principles are and how they are relevant for HCI;-
+Understanding People 1: Perception, Cognition and Motor Skills;What are the three central motor tasks?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What is Fitts’ law and what can it be used for?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What are the different reaction types?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What does the Ratcliff model explain?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What does the Hick-Hyman law express?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What are the elementary cognitive abilities?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What is cognitive control?;-
+Understanding People 1: Perception, Cognition and Motor Skills;How to measure cognitive workload?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What types of memory do we have and how do they differ?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What governs learning over time?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What’s the two systems of decision making?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What’s a mental model?;-
+Understanding People 1: Perception, Cognition and Motor Skills;How can insights about cognition be applied to HCI?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What it means to view the human as an information processor;-
+Understanding People 1: Perception, Cognition and Motor Skills;What the model human processor is, what it consists of and what it can be used for;-
+Understanding People 1: Perception, Cognition and Motor Skills;What the performance of our perceptual, cognitive and motor system is according to MHP;-
+Understanding People 1: Perception, Cognition and Motor Skills;What the limitations of MHP are?;-
+Understanding People 1: Perception, Cognition and Motor Skills;How are needs and motivations relevant to HCI?;-
+Understanding People 1: Perception, Cognition and Motor Skills;What is self-determination theory, its assumptions and basic ideas?;-
+Understanding People 2: Activity Theory;What activity theory is;-
+Understanding People 2: Activity Theory;Why it was brought into HCI;-
+Understanding People 2: Activity Theory;What activity theory provides means to explain;-
+Understanding People 2: Activity Theory;What the fundamental principles of activity theory are;-
+Understanding People 2: Activity Theory;Be able to explain the hierarchical structure of activity;-
+Understanding People 2: Activity Theory;Be able to explain the concept of mediation;-
+Understanding People 2: Activity Theory;Be able to explain the principles of internalisation and externalisation;-
+Understanding People 2: Activity Theory;That all development according to activity is driven by contradictions;-
+Understanding People 2: Activity Theory;Explain what a contradiction is;-
+Universal Usability;What universal usability is.;-
+Universal Usability;What broad categories of disabilities there are.;-
+Universal Usability;Why we have to consider disabilities when designing user interfaces.;-
+Universal Usability;What internationalization and localization of software is.;-
+Accessibility;What accessiblity is;-
+Accessibility;How to write accessible HTML;-
+Accessibility;What WAI-ARIA is and when it is used;-
+Accessibility;How internationalization can be implemented on the Web (in broad strokes).;-
+Data Visualization;What is data visualization?;-
+Data Visualization;Examples of historical visualization techniques (Minard, John Snow, Nightingale, etc);-
+Data Visualization;Illustration vs. Photorealism in data visualization.;-
+Data Visualization;Basic data types and corresponding visualizations (multidimensional, trees, graphs, time, etc).;-
+JavaScript Front-end Frameworks;What a JavaScript framework for front-end development is.;-
+JavaScript Front-end Frameworks;Why you would use a JavaScript framework like Vue.js.;-
+JavaScript Front-end Frameworks;What the relationship between the view and the model is in a framework like Vue.js.;-
+JavaScript Front-end Frameworks;A basic idea of the syntax for writing Vue.js templates;-
+History of Interactive Computing;What the development of interactive computing was motivated by;-
+History of Interactive Computing;How interaction with early computers happened and how it evolved;-
+History of Interactive Computing;When some of the ideas we now take for granted were first presented (pointing, hypertext, collaborative editing, video communication);-
+History of Interactive Computing;Where the personal computer was invented and what the vision that drove the development was;-
+History of Interactive Computing;What the WIMP paradigm is and when was it was introduced;-
+History of Interactive Computing;When was the Web was invented and for what;-
+History of Interactive Computing;What kind of phases interaction with computers can be characterized by;-
+Canvas and WebGL;What the stroke, region and pixel model for 2D graphics are;-
+Canvas and WebGL;What the canvas element is and what it is used for;-
+Canvas and WebGL;How to draw 2D graphics on the canvas;-
+Canvas and WebGL;How the canvas element can be used for 3D graphics. I will not test you in the details.;-
