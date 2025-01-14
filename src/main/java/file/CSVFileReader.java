@@ -5,7 +5,7 @@ import flashcard.StandardFlashCard;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class CSVFileReader implements FileReader {
     private List<FlashCard> cards;
 
     public CSVFileReader() {
-        cards = new ArrayList<FlashCard>();
+        cards = new LinkedList<FlashCard>();
         readCards();
     }
 
