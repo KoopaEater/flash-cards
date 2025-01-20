@@ -1,7 +1,10 @@
 package game;
 
+import cardpicker.CardPickerStrategy;
+import cardpicker.RandomFirstThirdCardPickerStrategy;
 import file.CSVFileReader;
 import file.FileReader;
+import file.FilteredFileReaderDecorator;
 import flashcard.FlashCard;
 import ui.ButtonType;
 import ui.FlashCardUI;
@@ -16,14 +19,16 @@ public class HCIFlashCardGame implements FlashCardGame {
 
     private final FlashCardUI ui;
     private final Random rand;
+    private final CardPickerStrategy cardPickerStrategy;
     private List<FlashCard> cards;
     private FlashCard currentCard;
 
     public HCIFlashCardGame() {
         ui = new StandardFlashCardUI("HCI Flash Cards", this);
         rand = new Random();
+        cardPickerStrategy = new RandomFirstThirdCardPickerStrategy();
 
-        FileReader fileReader = new CSVFileReader();
+        FileReader fileReader = new FilteredFileReaderDecorator(new CSVFileReader(), List.of("Understanding People 1: Perception, Cognition and Motor Skills"));
         cards = fileReader.getCards();
 
         showNextQuestion();
@@ -32,8 +37,7 @@ public class HCIFlashCardGame implements FlashCardGame {
 
     @Override
     public void showNextQuestion() {
-        int index = rand.nextInt(RANDOM_THRESHOLD);
-        currentCard = cards.remove(index);
+        currentCard = cardPickerStrategy.pickCard(cards);
         cards.add(currentCard);
 
         ui.showQuestion(currentCard.getQuestion());

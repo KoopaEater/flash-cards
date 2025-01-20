@@ -11,9 +11,11 @@ import java.util.Scanner;
 
 public class CSVFileReader implements FileReader {
 
+    private final DeHTMLifier deHTMLifier;
     private List<FlashCard> cards;
 
     public CSVFileReader() {
+        deHTMLifier = new StandardDeHTMLifier();
         cards = new LinkedList<FlashCard>();
         readCards();
     }
@@ -29,7 +31,10 @@ public class CSVFileReader implements FileReader {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] cells = line.split(";");
-                FlashCard card = new StandardFlashCard(cells[1], cells[2], cells[0]);
+                String question = deHTMLifier.deHTMLify(cells[1].trim());
+                String answer = deHTMLifier.deHTMLify(cells[2].trim());
+                String subject = deHTMLifier.deHTMLify(cells[0].trim());
+                FlashCard card = new StandardFlashCard(question, answer, subject);
                 cards.add(card);
             }
 
